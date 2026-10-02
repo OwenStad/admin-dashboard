@@ -8,36 +8,86 @@
 </head>
 <body>
     <aside>
-        <h1>Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Tasks</a></li>
-                <li><a href="#">Communities</a></li>
+        <nav class="links">
+            <ul class="main-links">
+                <li class="title">
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/view-dashboard.svg" alt="Dashboard Icon">
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/home.svg" alt="House Icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/card-account-details-outline.svg" alt="Card Icon">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/message-reply.svg" alt="Message Box Icon">
+                        <span>Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/clock-time-three.svg" alt="Clock Icon">
+                        <span>History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/note-multiple.svg" alt="Note Icon">
+                        <span>Tasks</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/account-group.svg" alt="Communities Icon">
+                        <span>Communties</span>
+                    </a>
+                </li>
             </ul>
-            <ul>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Privacy</a></li>
+            <ul class="settings-links">
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/cog.svg" alt="Cog Icon">
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/help-box.svg" alt="Help Icon">
+                        <span>Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="imgs/icons/shield-check.svg" alt="Privacy Icon">
+                        <span>Privacy</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </aside>
     <header>
         <div class="top">
-            <img class="icon" src="imgs/magnify.svg" alt="bell ringing">
+            <img class="icon" src="imgs/icons/magnify.svg" alt="bell ringing">
             <input type="search">
-            <img class="icon" src="imgs/bell-ring-outline.svg" alt="bell ringing">
-            <img class="profile" src="imgs/profile.png" alt="user profile picture">
-            <h3>Owen Staddon</h3>
+            <img class="icon" src="imgs/icons/bell-ring-outline.svg" alt="bell ringing">
+            <img class="profile" src="imgs/profiles/profile.png" alt="user profile picture">
+            <h4>Owen Staddon</h4>
         </div>
         <div class="bottom">
-            <img class="profile" src="imgs/profile.png" alt="user profile pricture"> 
+            <img class="profile" src="imgs/profiles/profile.png" alt="user profile pricture"> 
             <div>
                 <p>Hi there,</p>
-                <h2>Owen Staddon (@owen)</h2>
+                <h3>Owen Staddon (@owen)</h3>
             </div>
             <button>New</button>
             <button>Upload</button>
@@ -45,7 +95,81 @@
         </div>
     </header>
     <main>
-        <h1>Your projects</h1>
+        <div class="projects">
+            <h4>Your Projects</h4>
+            <div class="cards">
+                <div class="card">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+                <div class="card">
+                    <h4>Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+                <div class="card">
+                    <h4>Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+                <div class="card">
+                    <h4>Project 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+                <div class="card">
+                    <h4>Project 5</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+                <div class="card">
+                    <h4>Project 6</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, impedit natus officiis enim reiciendis excepturi esse consectetur inventore ea fugit animi in, deserunt voluptate beatae, aut odio maiores asperiores id!</p> 
+                </div>
+            </div>
+        </div>
+        <div class="announcements">
+            <h4>Announcements</h4> 
+            <div>
+                <h5>Site Maintenance</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et at reiciendis saepe, quaerat iusto.</p>
+            </div>
+            <div>
+                <h5>Site Maintenance</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et at reiciendis saepe, quaerat iusto.</p>
+            </div>
+            <div>
+                <h5>Site Maintenance</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et at reiciendis saepe, quaerat iusto.</p>
+            </div>
+        </div>
+        <div class="trending">
+            <h4>Trending</h4>
+            <div>
+                <img class="profile" src="imgs/profiles/profile.png" alt="user profile picture">
+                <div>
+                    <p>@owen</p>
+                    <p>Project 1</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile" src="imgs/profiles/profile.png" alt="user profile picture">
+                <div>
+                    <p>@owen</p>
+                    <p>Project 1</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile" src="imgs/profiles/profile.png" alt="user profile picture">
+                <div>
+                    <p>@owen</p>
+                    <p>Project 1</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile" src="imgs/profiles/profile.png" alt="user profile picture">
+                <div>
+                    <p>@owen</p>
+                    <p>Project 1</p>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
