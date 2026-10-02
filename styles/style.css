@@ -4,12 +4,8 @@ body {
     min-height: 100vh;
 
     display: grid;
-    grid-template-columns: minmax(200px, 300px) 3fr;
+    grid-template-columns: minmax(230px, 300px) 3fr;
     grid-template-rows: 1fr 5fr;
-}
-
-body > *{
-    border: 1px solid ;
 }
 
 .icon {
@@ -34,16 +30,16 @@ li span{
     font-size: 1.3rem;
 }
 
-li {
-    display: grid;
-    grid-template-columns: 2rem 1fr;
-    gap: 15px;
-}
-
 .links a {
     text-decoration: none;
     color:white;
     font-weight: bold;
+    padding: 2px;
+
+    display: grid;
+    grid-template-columns: 2.8rem 1fr;
+    align-items: center;
+    gap: 15px;
 }
 
 .links .icon {
@@ -77,6 +73,7 @@ header .bottom {
 }
 
 main {
+    background-color: rgb(234, 234, 234);
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
